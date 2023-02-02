@@ -39,4 +39,4 @@ jobs:
         tags: github-test-app, 1.0
         registry: docker.io
         username: ${{ secrets.DOCKER_USERNAME }}
-        password: ${{ secrets.DOCKER_PASSWORD }}
+        password: ${{ secrets.DOCKER_PASSWORD }} 
